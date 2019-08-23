@@ -1,0 +1,57 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - Rakefile
+    - vendor/**/*
+    - spec/**/*.rb
+
+Lint/HandleExceptions:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 150
+
+Metrics/MethodLength:
+  Max: 30
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/CyclomaticComplexity:
+  Max: 11
+
+Metrics/PerceivedComplexity:
+  Max: 12
+
+Style/SpaceInsideBrackets:
+  Enabled: false
+
+Style/SpaceInsideParens:
+  Enabled: false
+
+Style/SpaceAroundOperators:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/SpaceBeforeBlockBraces:
+  EnforcedStyle: no_space
+
+Style/FileName:
+  Enabled: false
+
+Style/Semicolon:
+  AllowAsExpressionSeparator: true

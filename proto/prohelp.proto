@@ -1,0 +1,11 @@
+syntax = "proto3";
+package prohelp;
+service ProtoService {
+    rpc do_it(ProtoRequest) returns (ProtoResponse) {}
+}
+message ProtoRequest {
+    string request = 1;
+}
+message ProtoResponse {
+    string response = 1;
+}
