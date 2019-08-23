@@ -20,13 +20,6 @@ Or install it yourself as:
 
 ## Usage
 
-For gRPC server
-```
-require `grpc`
-require `prohelp_pb`
-```
-
-For gRPC client
 ```
 require 'grpc'
 require 'prohelp_services_pb'
