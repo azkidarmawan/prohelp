@@ -2,19 +2,19 @@ PATH
   remote: .
   specs:
     prohelp (0.1.0)
-      grpc
+      grpc (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
-    google-protobuf (3.9.1-universal-darwin)
+    google-protobuf (3.11.4)
     googleapis-common-protos-types (1.0.4)
       google-protobuf (~> 3.0)
-    grpc (1.23.0-universal-darwin)
-      google-protobuf (~> 3.8)
+    grpc (1.27.0)
+      google-protobuf (~> 3.11)
       googleapis-common-protos-types (~> 1.0)
-    rake (10.4.2)
+    rake (13.0.1)
     rspec (3.6.0)
       rspec-core (~> 3.6.0)
       rspec-expectations (~> 3.6.0)
@@ -35,7 +35,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.0)
   prohelp!
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.0)
 
 BUNDLED WITH
