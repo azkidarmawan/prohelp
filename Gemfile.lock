@@ -2,16 +2,16 @@ PATH
   remote: .
   specs:
     prohelp (0.1.0)
-      grpc
+      grpc (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
-    google-protobuf (3.9.1-universal-darwin)
+    google-protobuf (3.19.2)
     googleapis-common-protos-types (1.0.4)
       google-protobuf (~> 3.0)
-    grpc (1.23.0-universal-darwin)
+    grpc (1.23.0)
       google-protobuf (~> 3.8)
       googleapis-common-protos-types (~> 1.0)
     rake (10.4.2)
